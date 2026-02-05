@@ -40,3 +40,5 @@ node server.js
 Open your browser and go to:
 
 http://localhost:3000
+
+Deployed link - quiz-web-production-8fe7.up.railway.app
