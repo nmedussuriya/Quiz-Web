@@ -1,3 +1,13 @@
+const path = require('path');
+
+// Serve static files from the public folder
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Route root '/' to your quiz.html
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'quiz.html'));
+});
+
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
@@ -14,3 +24,4 @@ app.use("/api", fetchRoutes);
 app.use("/api", quizRoutes);  
 
 app.listen(port, () => console.log(`Server running at http://localhost:${port}`));
+
