@@ -1,25 +1,4 @@
-
-1 parent 
-6f5318b
- commit 
-961e547
-File tree
-Filter files…
-package.json
-1 file changed
-+12
--5
-lines changed
-Search within code
- 
-‎package.json‎
-+12
--5
-Lines changed: 12 additions & 5 deletions
-Original file line number	Diff line number	Diff line change
-@@ -1,13 +1,20 @@
 {
-  "name": "quiz-web",
   "name": "quiz-node",
   "version": "1.0.0",
   "description": "Quiz Web App",
@@ -28,23 +7,14 @@ Original file line number	Diff line number	Diff line change
     "node": ">=18"
   },
   "scripts": {
-    "start": "node server.js"
     "start": "node server.js",
     "dev": "nodemon server.js",
     "build": "echo 'Skipping build'"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "node-fetch": "^3.3.2",
-    "he": "^1.2.0"
     "express": "^5.2.1",
     "mysql2": "^3.16.3",
     "he": "^1.2.0",
     "node-fetch": "^2.7.0"
   }
 }
-0 commit comments
-Comments
-0
- (0)
-Comment
